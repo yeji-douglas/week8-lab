@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9E79F1D6-7942-41BC-9E9D-76404B5579A6}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9E79F1D6-7942-41BC-9E9D-76404B5579A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main" ID="{41E54ECD-3E32-41FC-A2F5-378D7978B535}">
+					<ObjectInclusionList>
+						<ObjectRef Name="sfx_player_walk" ID="{AEC5DB7E-08C9-4445-B4A0-517D5BD65E94}" WorkUnitID="{ADD0B39B-BCDB-4D51-9FCF-2B3915982887}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mx_emitter" ID="{8FFACCE4-0317-4B76-9C21-86A5114CFAB8}" WorkUnitID="{ADD0B39B-BCDB-4D51-9FCF-2B3915982887}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

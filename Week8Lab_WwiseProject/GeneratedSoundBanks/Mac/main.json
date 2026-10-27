@@ -1,0 +1,123 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{41E54ECD-3E32-41FC-A2F5-378D7978B535}",
+    "Language": "SFX",
+    "Hash": "{E9D3E324-29B3-3623-623A-718E2F3A450D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
+    "ShortName": "main",
+    "Path": "main.bnk",
+    "Media": [
+     {
+      "Id": "14909983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_walk_04.wav",
+      "CachePath": "2F/{2F0EB5E6-0B14-025E-73DD-F726A5F88DBC}.wem"
+     },
+     {
+      "Id": "263273943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_walk_03.wav",
+      "CachePath": "F3/{F3441F05-7041-218C-2EF1-9A57B2F1686B}.wem"
+     },
+     {
+      "Id": "417753708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_walk_02.wav",
+      "CachePath": "C5/{C5124D88-7268-6AAB-A119-1CC7A2C6560F}.wem"
+     },
+     {
+      "Id": "453393659",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_walk_01.wav",
+      "CachePath": "78/{78B68E69-3A03-496B-DCB6-09704464ED03}.wem"
+     },
+     {
+      "Id": "538816798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_walk_06.wav",
+      "CachePath": "F8/{F86E77B8-964A-A3CF-EAD7-5CD86268546B}.wem"
+     },
+     {
+      "Id": "699586766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mx_emitter.wav",
+      "CachePath": "B2/{B2CAC9A2-EAAE-39F5-CBFA-D9F6D85473C7}.wem"
+     },
+     {
+      "Id": "885751612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_walk_05.wav",
+      "CachePath": "6E/{6E41D000-A677-6DC3-0D68-4D53C6090AFD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "544683253",
+      "Name": "mx_emitter",
+      "ObjectPath": "\\Events\\Default Work Unit\\mx_emitter",
+      "GUID": "{8FFACCE4-0317-4B76-9C21-86A5114CFAB8}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "699586766"
+       }
+      ]
+     },
+     {
+      "Id": "1490741162",
+      "Name": "sfx_player_walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_player_walk",
+      "GUID": "{AEC5DB7E-08C9-4445-B4A0-517D5BD65E94}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3045625",
+      "DurationMax": "0.385625",
+      "MediaRefs": [
+       {
+        "Id": "14909983"
+       },
+       {
+        "Id": "263273943"
+       },
+       {
+        "Id": "417753708"
+       },
+       {
+        "Id": "453393659"
+       },
+       {
+        "Id": "538816798"
+       },
+       {
+        "Id": "885751612"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BFDAFAEC-0736-3835-2ECE-68E60D8EA2C8}"
+ }
+}

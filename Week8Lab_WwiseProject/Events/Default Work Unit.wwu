@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADD0B39B-BCDB-4D51-9FCF-2B3915982887}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{ADD0B39B-BCDB-4D51-9FCF-2B3915982887}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="mx_emitter" ID="{8FFACCE4-0317-4B76-9C21-86A5114CFAB8}">
+					<ChildrenList>
+						<Action Name="" ID="{06A75700-EC4A-43D4-85E1-5F9AF369ED86}" ShortID="863363445">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mx_emitter" ID="{FEA1AC5E-BE24-4CE5-8DAF-1ADC176F8E30}" WorkUnitID="{718AC890-79E3-489C-A774-0BF086C92BDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_player_walk" ID="{AEC5DB7E-08C9-4445-B4A0-517D5BD65E94}">
+					<ChildrenList>
+						<Action Name="" ID="{F5C3C69D-2ACD-45AA-9B5C-55AAF49F67BE}" ShortID="983537129">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_player_walk" ID="{6905D6D8-44EC-4124-9FE1-14879193B168}" WorkUnitID="{718AC890-79E3-489C-A774-0BF086C92BDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
